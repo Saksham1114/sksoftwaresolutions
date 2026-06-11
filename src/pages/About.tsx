@@ -3,7 +3,7 @@ import { useEffect } from "react";
 import { Section } from "./Home";
 import { Card } from "../components/ui/card";
 import { Button } from "../components/ui/button";
-import { Target, Eye, Heart, Rocket, Workflow, GitBranch, ArrowRight } from "lucide-react";
+import { Target, Eye, Heart, Rocket, Workflow, GitBranch } from "lucide-react";
 
 export default function AboutPage() {
   useEffect(() => {
