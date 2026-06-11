@@ -24,7 +24,6 @@ export default function HomePage() {
       <Services />
       <TechStack />
       <Industries />
-      <FeaturedProjects />
       <CaseStudies />
       <Testimonials />
       <CtaBanner />
@@ -236,54 +235,6 @@ function Industries() {
     </Section>
   );
 }
-
-/* ---------------- Featured Projects ---------------- */
-export const projects = [
-  { title: "AI Resume Screener & Analyzer", category: "AI Solution", tag: "Internal Project", features: ["Resume Parsing","Candidate Ranking","JD Matching","ATS Optimization"], color: "from-blue-500 to-purple-500" },
-  { title: "Intelligent PDF Summarizer", category: "AI Application", tag: "Demo Solution", features: ["AI Summarization","OCR Support","Multi-Language","Text-to-Speech"], color: "from-purple-500 to-pink-500" },
-  { title: "Loan Approval Prediction", category: "Machine Learning", tag: "Product Showcase", features: ["Approval Prediction","Risk Assessment","Analytics Dashboard"], color: "from-indigo-500 to-blue-500" },
-  { title: "Regional Delicacies Platform", category: "Web Application", tag: "Demo Solution", features: ["Recipe Management","Multi-language","Interactive UI"], color: "from-pink-500 to-orange-500" },
-  { title: "Online Job Portal", category: "SaaS Platform", tag: "Product Showcase", features: ["Job Listings","Candidate Dashboard","Employer Management"], color: "from-cyan-500 to-blue-500" },
-  { title: "Hospital Management System", category: "Enterprise Software", tag: "Internal Project", features: ["Patient Management","Appointments","Billing","Reports"], color: "from-violet-500 to-fuchsia-500" },
-];
-
-function FeaturedProjects() {
-  return (
-    <Section eyebrow="Featured work" title="Projects that ship outcomes" description="A snapshot of internal projects, demos and product showcases across AI, SaaS and enterprise software.">
-      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
-        {projects.map((p) => (
-          <Card key={p.title} className="glass overflow-hidden hover-lift border-border/60 group">
-            <div className={`h-40 bg-gradient-to-br ${p.color} relative overflow-hidden`}>
-              <div className="absolute inset-0 bg-gradient-mesh opacity-30" />
-              <div className="absolute top-3 right-3 text-[10px] font-medium px-2 py-1 rounded-full glass">{p.tag}</div>
-              <div className="absolute bottom-3 left-4 text-xs font-medium text-white/90">{p.category}</div>
-            </div>
-            <div className="p-5">
-              <h3 className="font-semibold text-lg">{p.title}</h3>
-              <ul className="mt-3 flex flex-wrap gap-1.5">
-                {p.features.map((f) => (
-                  <li key={f} className="text-[11px] px-2 py-1 rounded-md bg-secondary text-secondary-foreground">{f}</li>
-                ))}
-              </ul>
-            </div>
-          </Card>
-        ))}
-      </div>
-      <div className="text-center mt-10">
-        <Button
-  asChild
-  variant="default"
-  className="bg-gradient-to-r from-blue-500 to-purple-500 text-white border-0 shadow-lg hover:opacity-90"
->
-  <Link to="/portfolio">
-    View full portfolio <ArrowRight className="ml-2 h-4 w-4" />
-  </Link>
-</Button>
-      </div>
-    </Section>
-  );
-}
-
 /* ---------------- Case Studies ---------------- */
 const cases = [
   {
