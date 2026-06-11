@@ -270,9 +270,14 @@ function FeaturedProjects() {
         ))}
       </div>
       <div className="text-center mt-10">
-        <Button asChild className="glass">
-          <Link to="/portfolio">View full portfolio <ArrowRight className="ml-2 h-4 w-4" /></Link>
-        </Button>
+        <Button
+  asChild
+  className="bg-gradient-brand text-brand-foreground border-0 shadow-glow hover:opacity-90"
+>
+  <Link to="/portfolio">
+    View full portfolio <ArrowRight className="ml-2 h-4 w-4" />
+  </Link>
+</Button>
       </div>
     </Section>
   );
@@ -379,9 +384,12 @@ function CtaBanner() {
             <Button asChild className="bg-gradient-brand text-brand-foreground border-0 shadow-glow hover:opacity-90">
               <Link to="/contact">Start your project <ArrowRight className="ml-2 h-4 w-4" /></Link>
             </Button>
-            <Button asChild className="glass border border-input">
-              <Link to="/services">Explore services</Link>
-            </Button>
+            <Button
+  asChild
+  className="bg-gradient-brand text-brand-foreground border-0 shadow-glow hover:opacity-90"
+>
+  <Link to="/services">Explore services</Link>
+</Button>
           </div>
         </div>
       </div>
