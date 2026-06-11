@@ -1,10 +1,11 @@
 import { Link } from "react-router-dom";
 import { Mail, Phone, MapPin, Sparkles } from "lucide-react";
+import { Sector } from "recharts";
 
 export function Footer() {
   const email = "sksoftwaresolutions11@gmail.com";
   const phone = "+91 8744893906";
-  const location = "B109, 10 th floor, suncity avenue sector-76, 122012, Gurgaon, India";
+  const location = "B109, 10th Floor, Suncity Avenue,Sector 76, Gurugram, Haryana 122012";
 
   return (
     <footer className="relative mt-24 border-t border-border bg-gradient-hero">

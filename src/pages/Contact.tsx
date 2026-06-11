@@ -13,7 +13,7 @@ import { Mail, Phone, MessageCircle, MapPin, Clock, Send, HelpCircle } from "luc
 const email = "sksoftwaresolutions11@gmail.com";
 const phone = "+91 8744893906";
 const whatsapp = "+91 8744893906";
-const location = "Delhi, India";
+const location = "B109, 10th Floor, Suncity Avenue, Sector 76, Gurugram, Haryana 122012";
 
 const servicesList = [
   "AI & Machine Learning",
