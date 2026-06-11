@@ -272,7 +272,8 @@ function FeaturedProjects() {
       <div className="text-center mt-10">
         <Button
   asChild
-  className="bg-gradient-brand text-brand-foreground border-0 shadow-glow hover:opacity-90"
+  variant="default"
+  className="bg-gradient-to-r from-blue-500 to-purple-500 text-white border-0 shadow-lg hover:opacity-90"
 >
   <Link to="/portfolio">
     View full portfolio <ArrowRight className="ml-2 h-4 w-4" />
