@@ -1,8 +1,9 @@
 import { Link, NavLink } from "react-router-dom";
-import { Menu, Moon, Sun, X, Sparkles } from "lucide-react";
+import { Menu, Moon, Sun, X} from "lucide-react";
 import { useState } from "react";
 import { useTheme } from "@/hooks/use-theme";
 import { Button } from "@/components/ui/button";
+import logo from "@/assets/sk-logo.png";
 
 const nav = [
   { to: "/", label: "Home" },
@@ -21,12 +22,17 @@ export function Navbar() {
     <header className="fixed top-0 inset-x-0 z-50">
       <div className="glass border-b border-border/50">
         <div className="container mx-auto max-w-7xl flex h-16 items-center justify-between px-4">
-          <Link to="/" className="flex items-center gap-2 font-display font-bold text-lg">
-            <span className="grid place-items-center h-9 w-9 rounded-lg bg-gradient-brand shadow-glow">
-              <Sparkles className="h-4 w-4 text-brand-foreground" />
-            </span>
-            <span>SK <span className="text-gradient-brand">Software</span></span>
-          </Link>
+          <Link to="/" className="flex items-center gap-3">
+  <img
+    src={logo}
+    alt="SK Software Solutions"
+    className="h-12 w-auto"
+  />
+
+  <span className="font-display font-bold text-lg">
+    SK <span className="text-gradient-brand">Software</span>
+  </span>
+</Link>
 
           <nav className="hidden md:flex items-center gap-1">
   {nav.map((n) => (
