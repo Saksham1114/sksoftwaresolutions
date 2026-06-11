@@ -61,6 +61,7 @@ function Hero() {
 >
   <Link to="/portfolio">View Our Work</Link>
 </Button>
+</div>
           <div className="mt-8 flex items-center gap-6 text-sm text-muted-foreground">
             <div className="flex items-center gap-2"><CheckCircle2 className="h-4 w-4 text-brand" /> NDA-friendly</div>
             <div className="flex items-center gap-2"><Shield className="h-4 w-4 text-brand" /> Enterprise security</div>
