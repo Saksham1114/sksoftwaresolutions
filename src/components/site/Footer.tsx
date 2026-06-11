@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import { Mail, Phone, MapPin, Sparkles } from "lucide-react";
-import { Sector } from "recharts";
 
 export function Footer() {
   const email = "sksoftwaresolutions11@gmail.com";
