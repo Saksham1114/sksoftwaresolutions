@@ -55,10 +55,12 @@ function Hero() {
             <Button asChild className="bg-gradient-brand text-brand-foreground border-0 shadow-glow hover:opacity-90">
               <Link to="/contact">Book Free Consultation <ArrowRight className="ml-2 h-4 w-4" /></Link>
             </Button>
-            <Button asChild className="glass">
-              <Link to="/portfolio">View Our Work</Link>
-            </Button>
-          </div>
+            <Button
+  asChild
+  className="bg-gradient-brand text-brand-foreground hover:opacity-90 border-0"
+>
+  <Link to="/portfolio">View Our Work</Link>
+</Button>
           <div className="mt-8 flex items-center gap-6 text-sm text-muted-foreground">
             <div className="flex items-center gap-2"><CheckCircle2 className="h-4 w-4 text-brand" /> NDA-friendly</div>
             <div className="flex items-center gap-2"><Shield className="h-4 w-4 text-brand" /> Enterprise security</div>
@@ -68,14 +70,6 @@ function Hero() {
           <div className="absolute -inset-6 bg-gradient-brand opacity-20 blur-3xl rounded-full" />
           <div className="relative glass rounded-2xl overflow-hidden shadow-glow animate-float">
             <img src={heroImg} alt="AI-powered software dashboard visualization" width={1600} height={1200} className="w-full h-auto" />
-          </div>
-          <div className="absolute -bottom-4 -left-4 glass rounded-xl px-4 py-3 shadow-elegant hidden sm:flex items-center gap-3">
-            <span className="h-9 w-9 grid place-items-center rounded-lg bg-gradient-brand"><Brain className="h-4 w-4 text-brand-foreground" /></span>
-            <div className="text-xs"><div className="font-semibold">AI Inference</div><div className="text-muted-foreground">99.9% uptime</div></div>
-          </div>
-          <div className="absolute -top-4 -right-4 glass rounded-xl px-4 py-3 shadow-elegant hidden sm:flex items-center gap-3">
-            <span className="h-9 w-9 grid place-items-center rounded-lg bg-gradient-brand"><Zap className="h-4 w-4 text-brand-foreground" /></span>
-            <div className="text-xs"><div className="font-semibold">Ship 3x faster</div><div className="text-muted-foreground">Agile delivery</div></div>
           </div>
         </div>
       </div>
