@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { useEffect, useRef, useState } from "react";
 import {
   ArrowRight, Brain, Code2, Smartphone, Cloud, Cog, Palette, HeartPulse,
-  Database, Server, Sparkles, Shield, Users, Rocket, MessageSquare, Zap,
+  Database, Server, Sparkles, Shield, Users, Rocket, MessageSquare,
   CheckCircle2, GitBranch, Star, Building2, GraduationCap, ShoppingBag,
   Truck, Landmark, Home as HomeIcon, Store,
 } from "lucide-react";
