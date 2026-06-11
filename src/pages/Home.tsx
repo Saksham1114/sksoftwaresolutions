@@ -235,6 +235,7 @@ function Industries() {
     </Section>
   );
 }
+
 /* ---------------- Case Studies ---------------- */
 const cases = [
   {
