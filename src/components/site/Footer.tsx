@@ -3,7 +3,7 @@ import { Mail, Phone, MapPin, Sparkles } from "lucide-react";
 
 export function Footer() {
   const email = "sksoftwaresolutions11@gmail.com";
-  const phone = "+91 8744893906";
+  const phone = "+91 8796530294";
   const location = "B109, 10th Floor, Suncity Avenue,Sector 76, Gurugram, Haryana 122012";
 
   return (

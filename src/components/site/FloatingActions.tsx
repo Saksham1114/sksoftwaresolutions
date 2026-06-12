@@ -24,7 +24,7 @@ export function FloatingActions() {
         <div className="h-full bg-gradient-brand transition-[width] duration-100" style={{ width: `${progress}%` }} />
       </div>
       <a
-        href="https://wa.me/918744893906"
+        href="https://wa.me/918796530294"
         target="_blank"
         rel="noopener noreferrer"
         aria-label="WhatsApp"

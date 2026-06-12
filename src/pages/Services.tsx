@@ -283,7 +283,7 @@ export default function ServicesPage() {
                 <Link to="/contact">Get a Free Quote <ArrowRight className="ml-2 h-4 w-4" /></Link>
               </Button>
               <Button asChild size="lg" variant="outline" className="glass">
-                <a href="https://wa.me/918744893906" target="_blank" rel="noopener noreferrer">Chat on WhatsApp</a>
+                <a href="https://wa.me/918796530294" target="_blank" rel="noopener noreferrer">Chat on WhatsApp</a>
               </Button>
             </div>
           </div>

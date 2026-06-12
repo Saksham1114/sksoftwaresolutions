@@ -11,8 +11,8 @@ import { Mail, Phone, MessageCircle, MapPin, Clock, Send, HelpCircle } from "luc
 
 
 const email = "sksoftwaresolutions11@gmail.com";
-const phone = "+91 8744893906";
-const whatsapp = "+91 8744893906";
+const phone = "+91 8796530294";
+const whatsapp = "+91 8796530294";
 const location = "B109, 10th Floor, Suncity Avenue, Sector 76, Gurugram, Haryana 122012";
 
 const servicesList = [
@@ -204,7 +204,7 @@ export default function ContactPage() {
                 <Phone className="h-4 w-4" /> Call Now
               </a>
               <a
-                href="https://wa.me/918744893906"
+                href="https://wa.me/918796530294"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 rounded-md text-sm font-medium h-10 px-4 bg-[#25D366] text-white shadow hover:opacity-90 transition animate-pulse-glow"
